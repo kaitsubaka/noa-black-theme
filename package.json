@@ -1,0 +1,30 @@
+{
+  "name": "noa-black-theme",
+  "displayName": "N.O.A. Black",
+  "description": "Pure black theme with purple and red syntax highlighting, based on One Dark Pro.",
+  "version": "1.0.1",
+  "publisher": "noa",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "black",
+    "dark",
+    "purple",
+    "red",
+    "one dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "N.O.A. Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/noa-black-color-theme.json"
+      }
+    ]
+  }
+}
