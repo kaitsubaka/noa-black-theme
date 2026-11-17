@@ -2,9 +2,13 @@
   "name": "noa-black-theme",
   "displayName": "N.O.A. Black",
   "description": "Pure black theme with purple and red syntax highlighting, based on One Dark Pro.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "noa",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaitsubaka/noa-black-theme"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },

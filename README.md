@@ -3,7 +3,7 @@
 A pure black VS Code theme with purple and red syntax highlighting.
 
 - UI: pure black (`#000000`) everywhere; popups `#050505`-`#0d0d0d` with `#212121` borders.
-- Accent: purple `#c678dd` (active tab, panel and activity bar indicators, buttons).
+- Accent: purple `#c678dd` (active tab, panel and activity bar indicators, buttons, badges, cursor, progress bar); selections use a translucent purple tint.
 - Syntax (from Zed's One Dark Pro Max):
 
 | Element | Color |
@@ -22,11 +22,11 @@ A pure black VS Code theme with purple and red syntax highlighting.
 Requires Node.js.
 
 ```bash
-npx --yes @vscode/vsce package --allow-missing-repository
+npx --yes @vscode/vsce package
 ```
 
 ```bash
-code --install-extension noa-black-theme-1.0.0.vsix
+code --install-extension noa-black-theme-1.0.2.vsix
 ```
 
 Then pick **N.O.A. Black** with `Ctrl+K` `Ctrl+T`.
